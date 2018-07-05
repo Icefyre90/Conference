@@ -39,7 +39,6 @@ html,body{
     background:linear-gradient(lightgrey, darkgray);
     flex: none; /* 2 */
     padding-top: 15px;
-    width: 50px;
 }
 
 .futerfont{
