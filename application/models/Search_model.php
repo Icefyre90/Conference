@@ -208,7 +208,7 @@ competence.reviewer_idreviewer=idreviewer and competence.conference_has_field_id
     }
 
     public function nextconference() {
-        $query = $this->db->query("SELECT *,min(event_begin) FROM conference.conference where event_begin >= CURRENT_DATE()");
+        $query = $this->db->query("select *,min(event_begin) FROM conference.conference where event_begin >= CURRENT_DATE()");
         $result = $query->result_array();
         return $result;
     }
