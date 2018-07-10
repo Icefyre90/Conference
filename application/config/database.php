@@ -76,11 +76,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn' => '',
-    'hostname' => 'sql7.freemysqlhosting.net',
+    'hostname' => 'sql7.freemysqlhosting.net/sql7246969',
     'username' => 'sql7246969',
     'password' => 'fF2rBGb4fI',
     'database' => 'sql7246969',
-    'dbdriver' => '3306',
+    'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
