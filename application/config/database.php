@@ -76,10 +76,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn' => '',
-    'hostname' => 'db4free.net',
-    'username' => 'nightfury',
-    'password' => 'nightfury',
-    'database' => 'conference',
+    'hostname' => 'sql7.freemysqlhosting.net',
+    'username' => 'sql7246969',
+    'password' => 'fF2rBGb4f',
+    'database' => 'sql7246969',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
